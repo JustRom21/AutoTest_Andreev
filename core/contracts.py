@@ -33,3 +33,12 @@ USER_CREATE_DATA_SCHEMA = {
         },
     "required": ["id","name","job"]
 }
+
+REGISTER_CREATE_DATA_SCHEMA = {
+    "type":"object",
+    "properties":{
+        'id': {'type':'number'},
+        'token':{'type':'string'}
+        },
+    "required": ["id","token"]
+}
