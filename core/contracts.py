@@ -42,3 +42,12 @@ REGISTER_CREATE_DATA_SCHEMA = {
         },
     "required": ["id","token"]
 }
+
+LOGIN_CREATE_DATA_SCHEMA = {
+    "type":"object",
+    "properties":{
+
+        'token':{'type':'string'}
+        },
+    "required": ["token"]
+}
