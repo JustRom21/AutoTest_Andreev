@@ -51,3 +51,4 @@ LOGIN_CREATE_DATA_SCHEMA = {
         },
     "required": ["token"]
 }
+
